@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620" font-family="Inter, Arial, sans-serif">
+  <rect width="960" height="620" fill="#0d1117"/>
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="248" height="620" fill="#0d1117" stroke="#30363d"/>
+  <text x="20" y="42" font-size="16" font-weight="700" fill="#e6edf3" font-family="'Trebuchet MS', sans-serif">Sohbet Geçmişi</text>
+  <!-- New chat -->
+  <rect x="16" y="58" width="216" height="40" rx="12" fill="#238636"/>
+  <text x="124" y="83" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle">+ Yeni Sohbet</text>
+  <!-- Session items -->
+  <rect x="16" y="110" width="216" height="36" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text x="30" y="133" font-size="13" fill="#e6edf3">💬 Toplam satış nedir?</text>
+  <rect x="16" y="154" width="216" height="36" rx="10" fill="#238636"/>
+  <text x="30" y="177" font-size="13" font-weight="600" fill="#ffffff">📌 En çok satan ürünler</text>
+  <!-- Bottom: language + dark toggle -->
+  <line x1="16" y1="528" x2="232" y2="528" stroke="#30363d" stroke-width="1"/>
+  <rect x="16" y="544" width="100" height="36" rx="10" fill="#238636"/>
+  <text x="66" y="567" font-size="14" fill="#ffffff" text-anchor="middle">🇹🇷</text>
+  <rect x="132" y="544" width="100" height="36" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text x="182" y="567" font-size="14" fill="#e6edf3" text-anchor="middle">EN</text>
+  <text x="20" y="606" font-size="13" fill="#e6edf3">🌙 Dark Mode</text>
+  <rect x="180" y="594" width="44" height="22" rx="11" fill="#238636"/>
+  <circle cx="213" cy="605" r="9" fill="#ffffff"/>
+  <!-- Main: header -->
+  <text x="284" y="46" font-size="20" font-weight="700" fill="#e6edf3" font-family="'Trebuchet MS', sans-serif">Veri Analitiği Asistanı</text>
+  <!-- User message -->
+  <rect x="556" y="70" width="372" height="42" rx="14" fill="#238636"/>
+  <text x="916" y="96" font-size="14" fill="#ffffff" text-anchor="end">En çok satılan 5 ürünü listele</text>
+  <!-- SQL label -->
+  <text x="284" y="148" font-size="14" font-weight="700" fill="#e6edf3">SQL</text>
+  <rect x="284" y="158" width="644" height="64" rx="12" fill="#161b22" stroke="#30363d"/>
+  <text x="300" y="180" font-size="10" fill="#d29922" letter-spacing="2">● ● ●   sql</text>
+  <text x="300" y="202" font-size="12" fill="#7ee787" font-family="monospace">SELECT u.urun_adi, SUM(s.adet) AS toplam</text>
+  <text x="300" y="218" font-size="12" fill="#7ee787" font-family="monospace">FROM siparisler s JOIN urunler u ...</text>
+  <!-- Results label -->
+  <text x="284" y="252" font-size="14" font-weight="700" fill="#e6edf3">Sonuçlar</text>
+  <!-- Table -->
+  <rect x="284" y="262" width="644" height="220" rx="12" fill="#161b22" stroke="#30363d"/>
+  <rect x="284" y="262" width="644" height="34" rx="12" fill="#161b22"/>
+  <rect x="284" y="288" width="644" height="8" fill="#161b22"/>
+  <text x="300" y="285" font-size="12" font-weight="700" fill="#e6edf3">urun_adi</text>
+  <text x="500" y="285" font-size="12" font-weight="700" fill="#e6edf3">toplam_adet</text>
+  <text x="700" y="285" font-size="12" font-weight="700" fill="#e6edf3">kategori</text>
+  <g font-size="12" fill="#e6edf3">
+    <text x="300" y="318">Akıllı Telefon</text><text x="500" y="318">142</text><text x="700" y="318">Elektronik</text>
+    <text x="300" y="350">Kablosuz Kulaklık</text><text x="500" y="350">128</text><text x="700" y="350">Elektronik</text>
+    <text x="300" y="382">Pamuklu Tişört</text><text x="500" y="382">119</text><text x="700" y="382">Tekstil</text>
+    <text x="300" y="414">Çalışma Masası</text><text x="500" y="414">96</text><text x="700" y="414">Ev &amp; Yaşam</text>
+    <text x="300" y="446">Parfüm</text><text x="500" y="446">88</text><text x="700" y="446">Kozmetik</text>
+  </g>
+  <g stroke="#21262d" stroke-width="1">
+    <line x1="284" y1="306" x2="928" y2="306"/>
+    <line x1="284" y1="338" x2="928" y2="338"/>
+    <line x1="284" y1="370" x2="928" y2="370"/>
+    <line x1="284" y1="402" x2="928" y2="402"/>
+    <line x1="284" y1="434" x2="928" y2="434"/>
+  </g>
+  <!-- Chat input -->
+  <rect x="284" y="552" width="644" height="46" rx="16" fill="#161b22" stroke="#30363d"/>
+  <text x="304" y="580" font-size="13" fill="#8b949e">Veritabanına bir soru yazın...</text>
+  <circle cx="900" cy="575" r="15" fill="#238636"/>
+  <text x="900" y="580" font-size="14" fill="#ffffff" text-anchor="middle">↑</text>
+</svg>
